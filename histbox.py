@@ -1,3 +1,8 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 def histogram_boxplot(data, features, figsize=(12,7), kde= False, bins= None ):
     f2, (ax_box2, ax_hist2) = plt.subplots(
     nrows=2,
