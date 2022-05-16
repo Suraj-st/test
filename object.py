@@ -9,4 +9,3 @@ def unique_counts(data):
         print(cols_data[i].value_counts())
         print('*'*50)
     return
-  
