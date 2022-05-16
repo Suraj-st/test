@@ -1,3 +1,8 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 def stackedbar(data, predictor, target):
     count = data[predictor].nunique()
     sorter = data[target].value_counts().index[-1]
